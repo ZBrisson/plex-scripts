@@ -7,7 +7,7 @@
 # Uses the getFileMetaData by the scripting guy and will take a long time to complete.
 
 # Import the metadata function from scripting guy 
-. "c:\powershell\Get-FileMetaDataReturnObject.ps1 
+. "c:\powershell\Get-FileMetaDataReturnObject.ps1" 
 
 # Searches subdirectories of the $fileDirectory
 # E.G. C:\Videos will only scan subfolders(C:\Videos\folder\), file C:\Videos\movie.avi will not be scanned.
